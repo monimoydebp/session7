@@ -25,6 +25,6 @@ I have achived the target in 3 steps below
 
 **Target**: In this step I will change the architecture from step3 by introducing Image augmentation of random rotation between -7 to +7 degrees. Also I used StepLR with step size 6 and gamma value 0.1. Also, I will change the batch size to 64 and check if the validation accuracy has stabilized or not
 
-**Result**: I have got Train accuracy: 98.56 validation accuracy: 99.41 Number of parameters: 8,442
+**Result**: I have got Train accuracy: 98.56 validation accuracy: 99.41 Number of parameters: 8,582
 
 **Analysis**: In this step, I could see the validation accuracy is 99.41. However, when I check the last 5 epochs validation accuracies are: 99.38,99,41,99.39,99,39,99.41 which is more steady with less variance so model has stabilized. I also observe that validation accuracy 99.41 is much higher than training accuracy 98.56. These are because with image augmentation, as CNN could learn from more images. With this I have achieved all the requirements as mentioned in the assignment
