@@ -23,7 +23,7 @@ I have achived the target in 3 steps below
 
 **Step3 of architecture changes:**
 
-**Target**: In this step I will change the architecture from step3 by introducing Image augmentation of random rotation between -7 to +7 degrees. Also I used StepLR with step size 6 and gamma value 0.1. Also, I will change the batch size to 64 and check if the validation accuracy has stabilized or not
+**Target**: In this step I will change the architecture from step2 by introducing Image augmentation of random rotation between -7 to +7 degrees. Also I used StepLR with step size 6 and gamma value 0.1. Also, I will change the batch size to 64 and check if the validation accuracy has stabilized or not
 
 **Result**: I have got Train accuracy: 98.56 validation accuracy: 99.41 Number of parameters: 8,582
 
